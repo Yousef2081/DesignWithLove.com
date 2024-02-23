@@ -1,0 +1,181 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.679),rgba(0, 0, 0, 0.581)), url(pexels-emre-can-acer-2079246.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Electrolize', sans-serif;
+    color: white;
+}
+.title{
+    cursor: pointer;
+    width: 250px;
+}
+.title::after{
+    content: '';
+    background-color: aqua;
+    width: 6.8%;
+    height: 4px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    top: 55px;
+    box-shadow: 1px 1px 10px aqua;
+    z-index: -1;
+
+}
+ul{
+    flex: 1;
+    text-align: right;
+    transform: translateY(-50px);
+}
+ul li{
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 17px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(155, 153, 153);
+}
+ul li a:hover{
+    color: white;
+    transition: 0.2s ease;
+    text-shadow: 1px 1px 20px white;
+}
+.meme{
+    font-size: 80px;
+    transform: translateX(350px);
+    margin-top: 100px;
+    word-spacing: 10px;
+    width: 800px;
+    cursor: default;
+}
+.grey{
+    word-spacing: 10px;
+    color: rgb(173, 173, 173);
+    transform: translateX(630px);
+    width: 800px;
+}
+.light{
+    text-shadow: 1px 1px 10px whitesmoke;
+    color: white;
+}
+.learn{
+    transform: translateX(650px);
+    
+    padding: 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(255, 189, 109);
+    font-family: 'Electrolize', sans-serif;
+    cursor: pointer;
+}
+.watch{
+    transform: translateX(600px);
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: white;
+    color: rgb(255, 189, 109);
+    font-family: 'Electrolize', sans-serif;
+    cursor: pointer;
+}
+.home-img{
+    width: 333px;
+    border-radius: 20px;
+   box-shadow: 2px 2px 5px rgb(82, 81, 81);
+}
+.drop-right{
+    background-color: white;
+    height: 500px;
+    margin-top: 210px;
+    border-radius: 20px;
+    padding: 0;
+}
+.content{
+    margin-left: 500px;
+    transform: translateY(-450px);
+    
+}
+
+.content h1{
+    font-size: 70px;
+    color: black;
+}
+.content h3{
+    color: rgb(185, 185, 185);
+    transform: translateY(-20px);
+    word-spacing: 5px;
+
+}
+.btn{
+    padding: 15px 35px;
+    margin-left: 00px;
+   transform: translateY(-1000px);
+    border-radius: 20px;
+    border:none;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background: linear-gradient(-35deg,rgb(155, 74, 74),rgb(248, 156, 156));
+    position: relative;
+}
+.btn:hover{
+    box-shadow: 1px 1px 5px 0px rgb(76, 76, 76);
+    transition: 0.5s ease;
+}
+.mk-vid{
+    width: 500px;
+    transform: translateY(700px);
+    margin-left: 500px;
+    border-radius: 20px;
+}
+.Contact{
+    transform: translateY(1000px);
+    background-color: rgb(30, 30, 30);
+    height: 160px;
+    padding: 100px 0px;
+}
+.name{
+    
+    padding: 10px 25px;
+    border-radius: 0 20px 20px 0px;
+    outline: none;
+    border: none;
+}
+.email{
+    outline: none;
+    border: none;
+   border-radius: 20px;
+    padding: 10px 25px;
+}
+.pass{
+    outline: none;
+    border: none;
+    
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.feed{
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.ok{
+    padding: 5px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
